@@ -1,0 +1,130 @@
+[
+  {
+    "id": "couverture-vs-compound",
+    "slug": "couverture-vs-compound-how-to-choose",
+    "category": "selection-guides",
+    "translationKey": "art-couverture-vs-compound",
+    "status": "verified",
+    "title": { "zh": "纯脂巧克力与代脂巧克力，应该从哪些条件判断？", "en": "Couverture or compound: which conditions should decide?" },
+    "summary": { "zh": "不要只从可可含量或单价开始。产品定义、调温能力、应用工艺和成本结构共同决定哪一种巧克力更合适。", "en": "Don't start from cocoa percentage or unit price alone. Product definition, tempering capability, process and total cost together decide which chocolate fits." },
+    "buyerQuestion": { "zh": "我的产品应该用纯脂还是代脂巧克力？", "en": "Should my product use couverture or compound chocolate?" },
+    "author": { "zh": "可可琳纳应用团队", "en": "Cocoa-Linna Applications Team" },
+    "technicalReviewer": { "zh": "TODO_COMPANY_VERIFY", "en": "TODO_COMPANY_VERIFY" },
+    "relatedProductIds": ["58-dark", "35-milk", "classic-dark", "star-white"],
+    "relatedApplicationIds": ["bakery", "food-manufacturing"],
+    "evidence": [
+      { "id": "gb-def", "label": { "zh": "定义依据", "en": "Definition basis" }, "detail": { "zh": "巧克力以可可制品为主要原料，非可可植物脂肪添加量占总质量的质量分数≤5%；代可可脂巧克力以代可可脂为主要脂肪原料。", "en": "Chocolate uses cocoa products as the main ingredient with non-cocoa vegetable fat ≤5% of total mass; compound chocolate uses cocoa-butter substitute as the main fat." } }
+    ],
+    "faq": [
+      { "question": { "zh": "代脂巧克力需要调温吗？", "en": "Does compound chocolate need tempering?" }, "answer": { "zh": "通常不需要调温，这也是它在规模化包衣和装饰中的主要便利之处；具体操作以产品技术资料为准。", "en": "Usually no tempering is required, which is its main convenience for scaled enrobing and decoration; follow the product technical sheet for details." } },
+      { "question": { "zh": "纯脂一定比代脂好吗？", "en": "Is couverture always better than compound?" }, "answer": { "zh": "不是。两者服务不同目标：纯脂强调口融与风味，代脂强调加工便利与稳定。应按应用条件选择。", "en": "No. They serve different goals: couverture for melt and flavour, compound for handling and stability. Choose by application conditions." } }
+    ],
+    "body": [
+      { "type": "p", "text": { "zh": "在 B2B 巧克力选型中，最常见的误区是把“可可含量高”或“单价低”直接当成选择标准。真正决定合适与否的是四个层面的匹配。", "en": "The most common mistake in B2B chocolate selection is treating 'higher cocoa' or 'lower price' as the decision itself. What actually decides fit is a match across four layers." } },
+      { "type": "h2", "text": { "zh": "1. 产品定义与法规体系", "en": "1. Product definition and regulation" } },
+      { "type": "p", "text": { "zh": "先确认最终产品需要真实可可脂体系，还是更强调加工便利的代脂体系。按国家标准，巧克力以可可制品为主要原料、非可可植物脂肪≤5%；代可可脂巧克力则以代可可脂为主要脂肪原料。这决定了标签、口融与工艺路径。", "en": "First confirm whether the finished product needs a true cocoa-butter system or a compound system focused on processing convenience. Under the national standard, chocolate uses cocoa products as the main ingredient with non-cocoa fat ≤5%, while compound chocolate uses cocoa-butter substitute as its main fat. This drives labelling, melt and process." } },
+      { "type": "h2", "text": { "zh": "2. 调温能力与设备", "en": "2. Tempering capability and equipment" } },
+      { "type": "p", "text": { "zh": "纯脂巧克力要获得光泽和脆度需要正确调温；代脂体系通常无需调温，更适合缺乏调温设备或追求效率的规模化产线。", "en": "Couverture needs correct tempering to develop gloss and snap; compound systems usually need no tempering and suit lines without tempering equipment or those chasing efficiency." } },
+      { "type": "h2", "text": { "zh": "3. 应用工艺与目标口感", "en": "3. Process and target texture" } },
+      { "type": "list", "items": { "zh": ["包衣、淋面还是夹心？", "环境温度与储存条件如何？", "对口融、脆度和风味强度的要求？"], "en": ["Enrobing, glazing or filling?", "What are the ambient and storage conditions?", "What melt, snap and flavour intensity are required?"] } },
+      { "type": "h2", "text": { "zh": "4. 总成本，而非原料报价", "en": "4. Total cost, not ingredient quote" } },
+      { "type": "p", "text": { "zh": "把单价放回终产品成本、成品率和现场操作难度中比较，而不是只比较原料报价。有时更贵的纯脂在良率和品牌溢价上反而更划算。", "en": "Compare price inside total finished-product cost, yield and line complexity — not as an isolated ingredient quote. A more expensive couverture can win on yield and brand premium." } },
+      { "type": "note", "text": { "zh": "具体产品的可可含量、脂肪体系与建议工艺以对应产品页和技术资料为准。", "en": "Cocoa content, fat system and recommended process for a specific product are given on its product page and technical sheet." } }
+    ],
+    "heroImage": { "src": "/company/image-277.webp", "alt": { "zh": "可可豆与黑巧克力", "en": "Cocoa beans and dark chocolate" }, "width": 1920, "height": 1080 },
+    "publishedAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "lastReviewedAt": "2026-01-15"
+  },
+  {
+    "id": "bake-stable-chips",
+    "slug": "why-bake-stable-chips-lose-shape",
+    "category": "application-guides",
+    "translationKey": "art-bake-stable",
+    "status": "verified",
+    "title": { "zh": "耐烤巧克力豆为什么会变形？", "en": "Why do bake-stable chocolate chips lose their shape?" },
+    "summary": { "zh": "耐烤表现不是单一温度数字，它由烘焙温度、时间、面团含水量、糖油体系与巧克力粒径共同决定。", "en": "Bake stability is not a single temperature number: bake temperature, time, dough moisture, fat–sugar system and chip size all decide it together." },
+    "buyerQuestion": { "zh": "如何避免耐烤巧克力豆在烘焙中塌陷变形？", "en": "How do I keep bake-stable chocolate chips from slumping in the oven?" },
+    "author": { "zh": "可可琳纳应用团队", "en": "Cocoa-Linna Applications Team" },
+    "technicalReviewer": { "zh": "TODO_COMPANY_VERIFY", "en": "TODO_COMPANY_VERIFY" },
+    "relatedProductIds": ["bake-stable"],
+    "relatedApplicationIds": ["bakery", "food-manufacturing"],
+    "evidence": [],
+    "faq": [
+      { "question": { "zh": "耐烤豆有一个通用耐温上限吗？", "en": "Is there a universal temperature ceiling for bake-stable chips?" }, "answer": { "zh": "没有绝对通用值。同一颗巧克力豆在曲奇、面包和玛芬中的受热路径不同，应分别做小试并记录形态与风味，建议工艺窗口以技术资料为准。", "en": "There is no absolute universal value. The same chip follows different heat paths in cookies, bread and muffins; run a trial for each and record shape and flavour. The recommended window is in the technical sheet." } }
+    ],
+    "body": [
+      { "type": "p", "text": { "zh": "“耐烤”常被误解为一个固定的耐温数字，但实际表现是多因素耦合的结果。", "en": "'Bake-stable' is often misread as one fixed heat number, but real performance is the result of several coupled factors." } },
+      { "type": "h2", "text": { "zh": "影响耐烤表现的主要因素", "en": "Main factors behind bake stability" } },
+      { "type": "list", "items": { "zh": ["烘焙温度与时间", "面团含水量与糖油体系", "巧克力颗粒尺寸与形态", "巧克力自身脂肪体系"], "en": ["Bake temperature and time", "Dough moisture and fat–sugar system", "Chip size and form", "The chip's own fat system"] } },
+      { "type": "h2", "text": { "zh": "为什么要分矩阵做小试", "en": "Why trial each matrix" } },
+      { "type": "p", "text": { "zh": "同一颗巧克力豆在曲奇、面包和玛芬中的受热路径不同：薄脆曲奇表面温度更高，厚重面团中心升温更慢。应分别做小试并记录形态与风味，而不是套用单一结论。", "en": "The same chip follows different heat paths in cookies, bread and muffins: thin crisp cookies see higher surface temperature, dense doughs heat more slowly at the centre. Trial each matrix and record shape and flavour rather than reusing one conclusion." } },
+      { "type": "note", "text": { "zh": "正式产品页会公开建议工艺窗口，同时明确它不是对所有配方都成立的绝对承诺。", "en": "The production data sheet publishes a recommended process window without presenting it as a universal guarantee." } }
+    ],
+    "heroImage": { "src": "/company/image-110.webp", "alt": { "zh": "可可琳纳耐烤巧克力产品", "en": "Cocoa-Linna bake-stable chocolate" }, "width": 379, "height": 536 },
+    "publishedAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "lastReviewedAt": "2026-01-15"
+  },
+  {
+    "id": "chocolate-sauce-flow",
+    "slug": "chocolate-sauce-flow-glazing-filling-injection",
+    "category": "application-guides",
+    "translationKey": "art-sauce-flow",
+    "status": "verified",
+    "title": { "zh": "淋面、夹心、甘纳许与注芯，流动性要求有何不同？", "en": "Glazing, filling, ganache and injection: how should flow differ?" },
+    "summary": { "zh": "不同工艺对巧克力酱的流动性、剪切和固化要求不同。询样时提供操作温度和设备信息，比只说“想要稀一点”更快得到正确样品。", "en": "Different processes place different demands on flow, shear and set. Sharing process temperature and equipment leads to a better sample faster than asking for something 'thinner'." } ,
+    "buyerQuestion": { "zh": "同一款巧克力酱能同时用于淋面、夹心和注芯吗？", "en": "Can one chocolate sauce serve glazing, filling and injection at once?" },
+    "author": { "zh": "可可琳纳应用团队", "en": "Cocoa-Linna Applications Team" },
+    "technicalReviewer": { "zh": "TODO_COMPANY_VERIFY", "en": "TODO_COMPANY_VERIFY" },
+    "relatedProductIds": ["yoghurt-sauce", "strawberry-sauce", "mango-sauce"],
+    "relatedApplicationIds": ["beverage-dairy", "ice-cream-frozen-dessert"],
+    "evidence": [],
+    "faq": [
+      { "question": { "zh": "为什么要提供操作温度和设备信息？", "en": "Why share process temperature and equipment?" }, "answer": { "zh": "流动性随温度、剪切和管径变化。提供这些条件能让应用团队直接锁定黏度范围，减少来回试样。", "en": "Flow changes with temperature, shear and pipe diameter. Sharing these lets the applications team target the viscosity range directly and reduce sample rounds." } }
+    ],
+    "body": [
+      { "type": "p", "text": { "zh": "“想要稀一点/稠一点”是最难落地的需求，因为不同工艺的流动性目标本身就不同。", "en": "'A bit thinner / thicker' is the hardest brief to act on, because flow targets differ by process." } },
+      { "type": "h2", "text": { "zh": "按工艺区分流动性目标", "en": "Flow targets by process" } },
+      { "type": "list", "items": { "zh": ["淋面：强调表面流平与凝固后的光泽。", "夹心：关注切面稳定与储存期间的迁移。", "注芯：匹配泵送、管径和剪切条件。", "甘纳许：把乳脂、水分与巧克力比例一起考虑。"], "en": ["Glazing: levelling and set gloss.", "Filling: cut stability and migration during storage.", "Injection: matched to pumps, pipe diameter and shear.", "Ganache: dairy fat, water and chocolate ratio considered together."] } },
+      { "type": "note", "text": { "zh": "可可琳纳流金系列巧克力酱以桶装 5kg×4/箱 供应，具体流动性与建议温度以技术资料为准。", "en": "Cocoa-Linna Flowing Gold sauces are supplied in 5 kg tubs (×4 per carton); specific flow and recommended temperature are on the technical sheet." } }
+    ],
+    "heroImage": { "src": "/company/image-595.webp", "alt": { "zh": "巧克力酱应用", "en": "Chocolate sauce application" }, "width": 1657, "height": 1660 },
+    "publishedAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "lastReviewedAt": "2026-01-15"
+  },
+  {
+    "id": "china-chocolate-standard",
+    "slug": "understanding-china-chocolate-standard-gbt-19343",
+    "category": "standards-quality",
+    "translationKey": "art-china-standard",
+    "status": "verified",
+    "title": { "zh": "读懂中国巧克力国家标准：巧克力与代可可脂巧克力的定义", "en": "Reading China's chocolate standard: chocolate vs compound definitions" },
+    "summary": { "zh": "国家标准区分“巧克力/可可脂巧克力”与“代可可脂巧克力”。理解定义边界，有助于正确标注产品并选择合适体系。", "en": "The national standard separates 'chocolate / cocoa-butter chocolate' from 'compound (cocoa-butter-substitute) chocolate'. Understanding the boundary helps label products correctly and choose the right system." },
+    "buyerQuestion": { "zh": "巧克力和代可可脂巧克力在国家标准里如何定义？", "en": "How does the national standard define chocolate and compound chocolate?" },
+    "author": { "zh": "可可琳纳标准与质量团队", "en": "Cocoa-Linna Standards & Quality Team" },
+    "technicalReviewer": { "zh": "TODO_COMPANY_VERIFY", "en": "TODO_COMPANY_VERIFY" },
+    "relatedProductIds": ["58-dark", "classic-dark"],
+    "relatedApplicationIds": ["food-manufacturing"],
+    "evidence": [
+      { "id": "gb-t-19343-2025", "label": { "zh": "国家标准", "en": "National standard" }, "detail": { "zh": "GB/T 19343—2025《巧克力及巧克力制品、代可可脂巧克力及代可可脂巧克力制品质量要求》，可可琳纳食品海门有限公司列为主要起草单位之一。", "en": "GB/T 19343—2025, the chocolate and compound-chocolate quality requirements standard; Cocoa-Linna Food Haimen Co., Ltd. is listed among the major drafting organisations." } }
+    ],
+    "faq": [
+      { "question": { "zh": "非可可植物脂肪的添加上限是多少？", "en": "What is the limit on non-cocoa vegetable fat?" }, "answer": { "zh": "按定义，巧克力中非可可植物脂肪添加量占总质量的质量分数≤5%。具体分类的可可脂、可可固形物与乳固体阈值以标准正文为准。", "en": "By definition, non-cocoa vegetable fat in chocolate is ≤5% of total mass. Exact cocoa-butter, cocoa-solids and milk-solids thresholds per class follow the standard text." } }
+    ],
+    "body": [
+      { "type": "p", "text": { "zh": "正确的标签和选型，都要从国家标准对“巧克力”与“代可可脂巧克力”的定义出发。", "en": "Correct labelling and selection both start from how the national standard defines 'chocolate' and 'compound chocolate'." } },
+      { "type": "h2", "text": { "zh": "两类产品的定义", "en": "Definitions of the two classes" } },
+      { "type": "p", "text": { "zh": "巧克力/可可脂巧克力：以可可制品（可可脂、可可液块、可可饼块或可可粉等）为主要原料，可添加或不添加非可可植物脂肪、食糖、乳及乳制品、食品添加剂；非可可植物脂肪添加量占总质量的质量分数≤5%。", "en": "Chocolate / cocoa-butter chocolate: made mainly from cocoa products (cocoa butter, liquor, cake or powder), with or without non-cocoa vegetable fat, sugar, milk and additives; non-cocoa vegetable fat is ≤5% of total mass." } },
+      { "type": "p", "text": { "zh": "代可可脂巧克力：以代可可脂为主要原料，可添加或不添加可可制品、食糖、乳及乳制品、食品添加剂，具有巧克力风味和性状。", "en": "Compound chocolate: made mainly from cocoa-butter substitute, with or without cocoa products, sugar, milk and additives, presenting chocolate flavour and characteristics." } },
+      { "type": "h2", "text": { "zh": "分类阈值", "en": "Class thresholds" } },
+      { "type": "p", "text": { "zh": "标准进一步对黑巧克力、牛奶巧克力、白巧克力及其代可可脂版本规定了可可脂、总可可固形物、乳脂肪与总乳固体等阈值。具体数值请以标准正文与最新版本为准，不应凭记忆引用。", "en": "The standard further sets thresholds for cocoa butter, total cocoa solids, milk fat and total milk solids across dark, milk and white classes and their compound versions. Cite exact figures from the standard text and latest version rather than from memory." } },
+      { "type": "note", "text": { "zh": "本文用于帮助理解定义框架，不替代标准正文。具体检测结论以第三方报告为准。", "en": "This article explains the framework and does not replace the standard text. Specific test conclusions rely on third-party reports." } }
+    ],
+    "heroImage": { "src": "/company/image-537.webp", "alt": { "zh": "可可琳纳参与巧克力国家标准起草", "en": "Cocoa-Linna participation in China's chocolate standard" }, "width": 2296, "height": 1286 },
+    "publishedAt": "2026-01-15",
+    "updatedAt": "2026-01-15",
+    "lastReviewedAt": "2026-01-15"
+  }
+]

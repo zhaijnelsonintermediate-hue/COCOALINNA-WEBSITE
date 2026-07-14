@@ -1,0 +1,63 @@
+{
+  "legalName": {
+    "zh": "可可琳纳食品贸易（上海）股份有限公司",
+    "en": "Cocoa-Linna Food Trading (Shanghai) Co., Ltd."
+  },
+  "brand": "COCOA-LINNA",
+  "brandZh": "可可琳纳",
+  "foundingYear": "1995",
+  "tagline": {
+    "zh": "Bean to Dessert with Love",
+    "en": "Bean to Dessert with Love"
+  },
+  "description": {
+    "zh": "可可琳纳是国内具规模的专业巧克力制造商之一，为烘焙、冰淇淋与冷冻甜品、饮品与乳品及食品工业提供纯脂巧克力、代脂巧克力、巧克力酱、耐烤与装饰巧克力等应用解决方案，围绕客户最终产品组织研发、生产与技术服务。",
+    "en": "Cocoa-Linna is one of China's larger specialist chocolate manufacturers, supplying couverture, compound chocolate, chocolate sauces, bake-stable and decoration chocolate to bakery, ice cream and frozen dessert, beverage and dairy, and food-manufacturing customers, organising R&D, production and technical service around the customer's finished product."
+  },
+  "phone": "+86-21-32521650",
+  "locations": [
+    {
+      "id": "shanghai",
+      "role": { "zh": "销售与研发总部", "en": "Sales & R&D headquarters" },
+      "name": { "zh": "可可琳纳食品贸易（上海）股份有限公司", "en": "Cocoa-Linna Food Trading (Shanghai) Co., Ltd." },
+      "addressLocality": { "zh": "上海市普陀区", "en": "Putuo District, Shanghai" },
+      "streetAddress": { "zh": "金沙江路2009弄1号201室", "en": "Room 201, No. 1, Lane 2009 Jinshajiang Road" },
+      "country": "CN"
+    },
+    {
+      "id": "haimen",
+      "role": { "zh": "南部生产基地", "en": "Southern manufacturing base" },
+      "name": { "zh": "可可琳纳食品海门有限公司", "en": "Cocoa-Linna Food Haimen Co., Ltd." },
+      "addressLocality": { "zh": "江苏省南通市海门区", "en": "Haimen District, Nantong, Jiangsu" },
+      "streetAddress": { "zh": "包场镇发展大道2518号", "en": "No. 2518 Fazhan Avenue, Baochang Town" },
+      "country": "CN"
+    },
+    {
+      "id": "shenyang",
+      "role": { "zh": "北部研发中心", "en": "Northern R&D centre" },
+      "name": { "zh": "沈阳可可琳纳食品有限公司", "en": "Shenyang Cocoa-Linna Food Co., Ltd." },
+      "addressLocality": { "zh": "辽宁省沈阳市", "en": "Shenyang, Liaoning" },
+      "streetAddress": { "zh": "黄河北大街206-600号", "en": "No. 206-600 Huanghe North Street" },
+      "country": "CN"
+    }
+  ],
+  "timeline": [
+    { "year": "1995", "event": { "zh": "沈阳华飞食品有限公司成立", "en": "Shenyang Huafei Food Co., Ltd. established" } },
+    { "year": "2001", "event": { "zh": "上海可可琳纳食品有限公司成立", "en": "Shanghai Cocoa-Linna Food Co., Ltd. established" } },
+    { "year": "2004", "event": { "zh": "沈阳可可琳纳食品有限公司成立", "en": "Shenyang Cocoa-Linna Food Co., Ltd. established" } },
+    { "year": "2005", "event": { "zh": "正式拓展全国烘焙市场", "en": "National bakery market expansion began" } },
+    { "year": "2010", "event": { "zh": "上海世博会指定巧克力原料供应商", "en": "Designated chocolate ingredient supplier for Expo 2010 Shanghai" } },
+    { "year": "2012", "event": { "zh": "海门可可琳纳食品有限公司（生产基地）成立", "en": "Haimen Cocoa-Linna manufacturing base established" } },
+    { "year": "2013", "event": { "zh": "第十二届全运会指定巧克力原料供应商", "en": "Designated chocolate ingredient supplier for the 12th National Games" } },
+    { "year": "2015", "event": { "zh": "股份公司成立；纯脂巧克力产品上市", "en": "Joint-stock company formed; couverture product line launched" } },
+    { "year": "2019", "event": { "zh": "引进国际领先的 IPCO 滴浇巧克力生产线", "en": "Introduced an IPCO chocolate depositing line" } },
+    { "year": "2022", "event": { "zh": "海门工厂二期项目竣工投产", "en": "Haimen plant Phase II completed and in production" } },
+    { "year": "2025", "event": { "zh": "上海研发中心成立", "en": "Shanghai R&D centre established" } }
+  ],
+  "stats": [
+    { "value": "30+", "label": { "zh": "覆盖省、市、自治区", "en": "provinces & regions covered" }, "status": "verified" },
+    { "value": "300+", "label": { "zh": "城市物流运输点", "en": "city logistics points" }, "status": "verified" },
+    { "value": "20+", "label": { "zh": "出口国家（含蒙古国、韩国等）", "en": "export countries (incl. Mongolia, Korea)" }, "status": "verified" },
+    { "value": "1995", "label": { "zh": "专业巧克力事业起点", "en": "specialist chocolate since" }, "status": "verified" }
+  ]
+}

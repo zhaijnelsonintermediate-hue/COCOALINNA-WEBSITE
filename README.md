@@ -1,4 +1,34 @@
-# vinext-starter
+# 可可琳纳 COCOA-LINNA — B2B 巧克力网站
+
+面向 SEO / GEO / AI 检索的中英文 B2B 巧克力内容与采购入口。基于 Next.js App Router，通过
+[vinext](https://github.com/cloudflare/vinext) 运行在 Cloudflare Workers。
+
+## 文档
+
+- [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) — 技术架构、目录、渲染方式、组件边界
+- [`docs/ROUTE-MAP.md`](docs/ROUTE-MAP.md) — 全部中英文 URL 与用途
+- [`docs/CONTENT-MODEL.md`](docs/CONTENT-MODEL.md) — 产品/应用/文章/证据的数据字段
+- [`docs/SEO-GEO-SPEC.md`](docs/SEO-GEO-SPEC.md) — 元数据、Schema、爬虫、Sitemap/Feed、内链、发布规则
+- [`docs/REDIRECTS.csv`](docs/REDIRECTS.csv) — 旧站 301 映射
+- [`docs/COMPANY-DATA-TODO.md`](docs/COMPANY-DATA-TODO.md) — 待公司确认资料清单
+- [`docs/MAINTENANCE.md`](docs/MAINTENANCE.md) — 新增产品 / 文章 / 中英文发布流程
+- [`docs/ACCEPTANCE-REPORT.md`](docs/ACCEPTANCE-REPORT.md) — 验收报告
+
+## 常用命令
+
+```bash
+npm run dev                # 本地开发
+npm run build              # 构建 + 产物校验（权威构建 / 类型门）
+npm run content:validate   # 内容字段与引用完整性
+npm run seo:validate       # canonical / hreflang / JSON-LD / robots / feed（需先 build）
+npm run links:check        # 内链无断链、无孤立页（需先 build）
+npm run new:product -- <category> <slug> "<中文名>" "<English name>"
+npm run new:article -- <category> <slug> "<中文标题>" "<English title>"
+```
+
+---
+
+## vinext-starter（底层模板说明）
 
 A clean full-stack starter running on
 [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and

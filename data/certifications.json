@@ -1,0 +1,37 @@
+[
+  {
+    "id": "iso9001",
+    "status": "verified",
+    "name": { "zh": "ISO 9001 质量管理体系认证", "en": "ISO 9001 Quality Management System" },
+    "issuer": { "zh": "第三方认证机构", "en": "Third-party certification body" },
+    "scope": { "zh": "巧克力及巧克力制品的生产质量管理体系。", "en": "Quality management system for chocolate and chocolate product manufacturing." }
+  },
+  {
+    "id": "iso22000",
+    "status": "verified",
+    "name": { "zh": "ISO 22000 食品安全管理体系认证", "en": "ISO 22000 Food Safety Management System" },
+    "issuer": { "zh": "第三方认证机构", "en": "Third-party certification body" },
+    "scope": { "zh": "覆盖原料到成品的食品安全管理体系。", "en": "Food safety management system from raw material to finished goods." }
+  },
+  {
+    "id": "fssc22000",
+    "status": "verified",
+    "name": { "zh": "FSSC 22000 食品安全体系认证", "en": "FSSC 22000 Food Safety System Certification" },
+    "issuer": { "zh": "第三方认证机构", "en": "Third-party certification body" },
+    "scope": { "zh": "GFSI 承认的食品安全体系认证。", "en": "GFSI-recognised food safety system certification." }
+  },
+  {
+    "id": "smeta",
+    "status": "verified",
+    "name": { "zh": "SMETA 社会责任审核", "en": "SMETA Social Responsibility Audit" },
+    "issuer": { "zh": "Sedex 会员道德贸易审核", "en": "Sedex Members Ethical Trade Audit" },
+    "scope": { "zh": "劳工、健康安全、环境与商业道德审核。", "en": "Labour, health & safety, environment and business ethics audit." }
+  },
+  {
+    "id": "dun-bradstreet",
+    "status": "verified",
+    "name": { "zh": "邓白氏（D-U-N-S）资信认证", "en": "Dun & Bradstreet (D-U-N-S) Business Credit Registration" },
+    "issuer": { "zh": "邓白氏", "en": "Dun & Bradstreet" },
+    "scope": { "zh": "企业信用与资信标识。", "en": "Enterprise credit and business identity registration." }
+  }
+]

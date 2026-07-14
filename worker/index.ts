@@ -1,6 +1,15 @@
 /** Cloudflare Worker entry point for the vinext-starter template. */
 import { handleImageOptimization, DEFAULT_DEVICE_SIZES, DEFAULT_IMAGE_SIZES } from "vinext/server/image-optimization";
 import handler from "vinext/server/app-router-entry";
+import redirectsConfig from "../data/redirects.json";
+import { SEO_FILES } from "../lib/seo-files";
+
+// Legacy-URL 301 map (single source: data/redirects.json). Normalises a
+// trailing slash so "/product" and "/product/" both match.
+const REDIRECTS = new Map<string, { to: string; status: number }>();
+for (const r of redirectsConfig.redirects) {
+  REDIRECTS.set(r.from.replace(/\/$/, ""), { to: r.to, status: r.status });
+}
 
 interface Env {
   ASSETS: Fetcher;
@@ -28,6 +37,20 @@ interface ExecutionContext {
 const worker = {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     const url = new URL(request.url);
+
+    // Permanent redirects for legacy URLs (before any rendering).
+    const redirect = REDIRECTS.get(url.pathname.replace(/\/$/, ""));
+    if (redirect) {
+      return Response.redirect(new URL(redirect.to, url.origin).toString(), redirect.status);
+    }
+
+    // File-style SEO endpoints, served here so trailingSlash:true does not
+    // 308-redirect these dotted paths.
+    const seo = SEO_FILES[url.pathname];
+    if (seo) {
+      const { body, contentType } = seo();
+      return new Response(body, { headers: { "content-type": contentType } });
+    }
 
     if (url.pathname === "/_vinext/image") {
       const allowedWidths = [...DEFAULT_DEVICE_SIZES, ...DEFAULT_IMAGE_SIZES];

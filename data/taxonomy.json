@@ -1,0 +1,58 @@
+{
+  "productCategories": [
+    {
+      "slug": "couverture",
+      "title": { "zh": "纯脂巧克力", "en": "Couverture" },
+      "definition": {
+        "zh": "以纯可可脂为脂肪体系的巧克力，强调口融、风味与调温后的光泽脆度，适合对口感和品质要求更高的应用。",
+        "en": "Chocolate built on cocoa butter as its fat system, emphasising melt, flavour and post-tempering gloss and snap — for applications with higher taste and quality requirements."
+      },
+      "selectionCriteria": {
+        "zh": ["需要真实可可脂口融与风味", "具备调温能力或设备", "对光泽、脆度有要求"],
+        "en": ["Need true cocoa-butter melt and flavour", "Have tempering capability or equipment", "Require gloss and snap"]
+      }
+    },
+    {
+      "slug": "compound-chocolate",
+      "title": { "zh": "代脂巧克力", "en": "Compound chocolate" },
+      "definition": {
+        "zh": "以代可可脂为主要脂肪体系的巧克力风味制品，加工便利、无需调温，适合规模化烘焙、包衣与装饰。",
+        "en": "Chocolate-flavoured products built mainly on cocoa-butter substitute fats: easy to process, no tempering required, suited to scaled bakery, enrobing and decoration."
+      },
+      "selectionCriteria": {
+        "zh": ["优先加工便利与稳定性", "无需或不便调温", "规模化包衣、淋面与装饰"],
+        "en": ["Prioritise processing convenience and stability", "No tempering needed or available", "Scaled enrobing, glazing and decoration"]
+      }
+    },
+    {
+      "slug": "chocolate-sauce",
+      "title": { "zh": "巧克力酱", "en": "Chocolate sauce" },
+      "definition": {
+        "zh": "以流动形态呈现的巧克力风味酱料，用于夹心、淋面、注芯、调饮与甜品，流动性与风味是主要选型变量。",
+        "en": "Chocolate-flavoured sauces in a flowing form for filling, glazing, injection, beverages and desserts, where flow and flavour are the main selection variables."
+      },
+      "selectionCriteria": {
+        "zh": ["按夹心/淋面/注芯确定流动性", "匹配设备与操作温度", "选择风味与甜度"],
+        "en": ["Match flow to filling / glazing / injection", "Match equipment and process temperature", "Choose flavour and sweetness"]
+      }
+    },
+    {
+      "slug": "functional-decoration",
+      "title": { "zh": "功能与装饰巧克力", "en": "Functional & decoration" },
+      "definition": {
+        "zh": "面向特定功能（如耐烤）或即用装饰（花小卷、插件）的巧克力形态，用于提升生产效率或成品呈现。",
+        "en": "Chocolate forms for specific functions (e.g. bake stability) or ready-to-use decoration (curls, inserts) that improve production efficiency or finished appearance."
+      },
+      "selectionCriteria": {
+        "zh": ["需要耐烤等特定功能", "希望减少门店现场制作", "追求稳定一致的装饰形态"],
+        "en": ["Need a specific function such as bake stability", "Want to reduce in-store preparation", "Seek consistent decoration forms"]
+      }
+    }
+  ],
+  "knowledgeCategories": [
+    { "slug": "selection-guides", "title": { "zh": "选型基础", "en": "Selection guides" }, "definition": { "zh": "帮助采购与研发在纯脂、代脂、酱料与功能型之间做出选型判断。", "en": "Guides that help procurement and R&D choose between couverture, compound, sauces and functional products." } },
+    { "slug": "application-guides", "title": { "zh": "应用指南", "en": "Application guides" }, "definition": { "zh": "围绕具体工艺场景（烘焙、冷冻、饮品、工业）的应用方法与边界。", "en": "Application methods and boundaries for specific processes: bakery, frozen, beverage and industry." } },
+    { "slug": "standards-quality", "title": { "zh": "标准与质量", "en": "Standards & quality" }, "definition": { "zh": "解读巧克力相关国家标准、定义与质量体系。", "en": "Interpreting chocolate-related national standards, definitions and quality systems." } },
+    { "slug": "rd-insights", "title": { "zh": "研发洞察", "en": "R&D insights" }, "definition": { "zh": "来自实验观察与应用验证的研发经验分享。", "en": "R&D experience from lab observation and application validation." } }
+  ]
+}

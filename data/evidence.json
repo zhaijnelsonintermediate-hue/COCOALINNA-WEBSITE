@@ -1,0 +1,26 @@
+[
+  {
+    "id": "gb-t-19343-2025",
+    "label": { "zh": "国家标准起草单位", "en": "National standard drafting organisation" },
+    "detail": {
+      "zh": "可可琳纳食品海门有限公司列为《巧克力及巧克力制品、代可可脂巧克力及代可可脂巧克力制品质量要求》（GB/T 19343—2025）主要起草单位之一。",
+      "en": "Cocoa-Linna Food Haimen Co., Ltd. is listed among the major drafting organisations for China's updated chocolate quality standard GB/T 19343—2025."
+    }
+  },
+  {
+    "id": "superior-taste-award",
+    "label": { "zh": "国际美味大奖", "en": "Superior Taste Award" },
+    "detail": {
+      "zh": "2020—2025 年连续多年在比利时国际风味暨品质评鉴所（iTQi）获得 Superior Taste Award，含最高级别水晶奖章记录。具体产品与年份以公开获奖数据库为准。",
+      "en": "Multiple consecutive Superior Taste Award records (Brussels, iTQi), 2020–2025, including Crystal-level recognition. Specific products and years are verifiable in the public award database."
+    }
+  },
+  {
+    "id": "process-controls",
+    "label": { "zh": "全链路品控", "en": "End-to-end quality control" },
+    "detail": {
+      "zh": "从原料入厂到成品出厂建立闭环品控，共计 109 道管控措施、2 个 CCP 关键控制点、19 步产品过滤。",
+      "en": "A closed-loop quality system from incoming material to finished goods: 109 control measures, 2 CCP critical control points and 19 filtration steps."
+    }
+  }
+]

@@ -13,6 +13,11 @@
     "test": "npm run build && node --test tests/rendered-html.test.mjs",
     "validate:artifact": "bash scripts/validate-artifact.sh",
     "lint": "bash scripts/sites-env.sh -- eslint . --ignore-pattern dist --ignore-pattern .next",
+    "content:validate": "node scripts/content-validate.mjs",
+    "seo:validate": "node scripts/seo-validate.mjs",
+    "links:check": "node scripts/links-check.mjs",
+    "new:product": "node scripts/new-product.mjs",
+    "new:article": "node scripts/new-article.mjs",
     "db:generate": "bash scripts/sites-env.sh -- drizzle-kit generate"
   },
   "dependencies": {

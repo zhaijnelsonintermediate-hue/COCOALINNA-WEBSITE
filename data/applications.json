@@ -1,0 +1,174 @@
+[
+  {
+    "id": "bakery",
+    "slug": "bakery",
+    "status": "verified",
+    "translationKey": "app-bakery",
+    "title": { "zh": "烘焙与连锁饼店", "en": "Bakery & chains" },
+    "eyebrow": { "zh": "APPLICATION · BAKERY", "en": "APPLICATION · BAKERY" },
+    "summary": {
+      "zh": "面向面包、蛋糕、西点、饼干与门店装饰的巧克力选型：夹心、淋面、耐烤、包衣与装饰在同一条产线上往往需要不同的巧克力体系。",
+      "en": "Chocolate selection for bread, cakes, pastry, cookies and in-store decoration: filling, glazing, bake-stable inclusions, enrobing and decoration often need different chocolate systems on one line."
+    },
+    "image": { "src": "/company/27ebce6b49d0f39aa80376be02230c2e.jpg", "alt": { "zh": "烘焙巧克力应用", "en": "Bakery chocolate application" }, "width": 530, "height": 353 },
+    "finishedProducts": {
+      "zh": ["夹心与甘纳许", "淋面与镜面", "耐烤夹入（曲奇、面包、玛芬）", "表面装饰与围边", "慕斯与蛋糕插件"],
+      "en": ["Fillings & ganache", "Glazing & mirror finishes", "Bake-stable inclusions (cookies, bread, muffins)", "Surface decoration & borders", "Mousse & cake inserts"]
+    },
+    "processNotes": {
+      "zh": [
+        "调温与环境温度决定纯脂巧克力的光泽与脆度，代脂体系则以操作便利为主。",
+        "耐烤应用要同时考虑烘焙温度、时间、面团含水量与糖油体系，而非单一耐温数字。",
+        "淋面关注表面流平与凝固光泽，夹心关注切面稳定与储存迁移。"
+      ],
+      "en": [
+        "Tempering and ambient temperature drive gloss and snap in couverture; compound systems prioritise handling convenience.",
+        "Bake-stable use depends on bake temperature, time, dough moisture and fat–sugar system together, not one heat number.",
+        "Glazing prioritises levelling and set gloss; fillings prioritise cut stability and storage migration."
+      ]
+    },
+    "commonIssues": {
+      "zh": [
+        "耐烤豆变形或塌陷——多与烘焙温度、时间及颗粒尺寸不匹配有关。",
+        "淋面不平或起雾——常见于调温、环境湿度或涂层厚度问题。",
+        "夹心迁移或渗油——与配方水分、脂肪体系及储存温度相关。"
+      ],
+      "en": [
+        "Bake-stable chips deforming or slumping — usually a mismatch of bake temperature, time and chip size.",
+        "Uneven or bloomed glaze — often tempering, ambient humidity or coating thickness.",
+        "Filling migration or oiling-out — related to formula moisture, fat system and storage temperature."
+      ]
+    },
+    "trialInputs": {
+      "zh": ["最终产品类型与配方目标", "烘焙/操作温度与时间", "设备（调温机、淋面线、包衣机等）", "目标口融、脆度与货架期", "预计用量与项目阶段"],
+      "en": ["Finished product type and formula goal", "Bake/process temperature and time", "Equipment (tempering, glazing, enrobing, etc.)", "Target melt, snap and shelf life", "Expected volume and project stage"]
+    },
+    "recommendedProductIds": ["58-dark", "35-milk", "classic-dark", "bake-stable", "curls"],
+    "relatedArticleIds": ["couverture-vs-compound", "bake-stable-chips"],
+    "publishedAt": "2026-01-15",
+    "updatedAt": "2026-01-15"
+  },
+  {
+    "id": "ice-cream-frozen-dessert",
+    "slug": "ice-cream-frozen-dessert",
+    "status": "verified",
+    "translationKey": "app-icecream",
+    "title": { "zh": "冰淇淋与冷冻甜品", "en": "Ice cream & frozen desserts" },
+    "eyebrow": { "zh": "APPLICATION · FROZEN", "en": "APPLICATION · FROZEN" },
+    "summary": {
+      "zh": "脆皮、涂层、内馅与冷冻稳定：低温环境对巧克力的脆裂、附着与抗裂提出特定要求。",
+      "en": "Shells, coating, inclusions and frozen stability: low-temperature use places specific demands on snap, adhesion and crack resistance."
+    },
+    "image": { "src": "/company/image-248.webp", "alt": { "zh": "冰淇淋巧克力涂层应用", "en": "Ice cream chocolate coating application" }, "width": 754, "height": 675 },
+    "finishedProducts": {
+      "zh": ["脆皮雪糕涂层", "巧克力脆壳与脆筒", "冷冻夹心与内馅", "淋酱与装饰"],
+      "en": ["Coated ice-cream shells", "Chocolate cracking shells and cones", "Frozen fillings and inclusions", "Sauces and decoration"]
+    },
+    "processNotes": {
+      "zh": [
+        "涂层需要在低温下快速凝固并保持脆度，涂层黏度与温度需匹配浸涂或喷涂设备。",
+        "冷冻甜品对抗裂与附着要求高，脂肪体系与巧克力用量共同影响表现。",
+        "淋酱在低温下的流动性与固化速度需要单独评估。"
+      ],
+      "en": [
+        "Coatings must set quickly at low temperature while keeping snap; viscosity and temperature must match dip or spray equipment.",
+        "Frozen desserts demand crack resistance and adhesion; fat system and chocolate load both matter.",
+        "Sauce flow and set speed at low temperature need separate evaluation."
+      ]
+    },
+    "commonIssues": {
+      "zh": ["涂层开裂或脱落——与抗裂配方、涂层厚度及温差有关。", "脆壳过厚或不脆——涂层黏度与温度未匹配。"],
+      "en": ["Coating cracking or flaking — related to crack-resistant formula, coating thickness and temperature gradient.", "Shell too thick or not crisp — viscosity and temperature mismatch."]
+    },
+    "trialInputs": {
+      "zh": ["最终产品（脆皮、脆壳、内馅等）", "涂层/浸涂温度与设备", "储存与展示温度", "目标脆度与厚度", "预计用量"],
+      "en": ["Finished product (shell, coating, inclusion, etc.)", "Coating/dip temperature and equipment", "Storage and display temperature", "Target snap and thickness", "Expected volume"]
+    },
+    "recommendedProductIds": ["58-dark", "mango-sauce", "curls", "white-curls"],
+    "relatedArticleIds": ["chocolate-sauce-flow"],
+    "publishedAt": "2026-01-15",
+    "updatedAt": "2026-01-15"
+  },
+  {
+    "id": "beverage-dairy",
+    "slug": "beverage-dairy",
+    "status": "verified",
+    "translationKey": "app-beverage",
+    "title": { "zh": "饮品与乳品", "en": "Beverage & dairy" },
+    "eyebrow": { "zh": "APPLICATION · BEVERAGE", "en": "APPLICATION · BEVERAGE" },
+    "summary": {
+      "zh": "风味酱、调饮、酸乳与创意融合：巧克力在饮品与乳品中的分散性、稳定性与风味释放是关键。",
+      "en": "Flavour sauces, drinks, yoghurt and fusion concepts: dispersion, stability and flavour release are the key variables in beverage and dairy use."
+    },
+    "image": { "src": "/company/image-595.webp", "alt": { "zh": "巧克力饮品与乳品应用", "en": "Chocolate beverage and dairy application" }, "width": 1657, "height": 1660 },
+    "finishedProducts": {
+      "zh": ["现制茶饮与咖啡风味酱", "巧克力调饮与厚乳", "酸奶与乳品夹层", "创意融合饮品"],
+      "en": ["Freshly-made tea and coffee flavour sauces", "Chocolate drinks and thick-milk bases", "Yoghurt and dairy layers", "Fusion beverage concepts"]
+    },
+    "processNotes": {
+      "zh": [
+        "现制饮品关注酱体在冷/热条件下的分散与不结块。",
+        "厚乳与调饮需要稳定的甜度与可可强度，便于门店标准化出杯。",
+        "与本土风味（茶、坚果、果味）的搭配可形成差异化产品。"
+      ],
+      "en": [
+        "Freshly-made drinks focus on sauce dispersion and no clumping in cold or hot conditions.",
+        "Thick-milk and drink bases need stable sweetness and cocoa intensity for consistent store output.",
+        "Pairing with local flavours (tea, nuts, fruit) supports differentiated products."
+      ]
+    },
+    "commonIssues": {
+      "zh": ["酱体分散不均或沉底——与溶解条件和搅拌方式有关。", "冷饮结块——温度与配方需匹配。"],
+      "en": ["Uneven dispersion or settling — related to dissolving conditions and mixing.", "Cold-drink clumping — temperature and formula must match."]
+    },
+    "trialInputs": {
+      "zh": ["饮品类型与出杯方式", "冷/热与设备条件", "目标甜度与可可强度", "门店标准化要求", "预计用量"],
+      "en": ["Beverage type and preparation method", "Cold/hot and equipment conditions", "Target sweetness and cocoa intensity", "Store standardisation needs", "Expected volume"]
+    },
+    "recommendedProductIds": ["35-milk", "yoghurt-sauce", "strawberry-sauce", "mango-sauce"],
+    "relatedArticleIds": ["chocolate-sauce-flow"],
+    "publishedAt": "2026-01-15",
+    "updatedAt": "2026-01-15"
+  },
+  {
+    "id": "food-manufacturing",
+    "slug": "food-manufacturing",
+    "status": "verified",
+    "translationKey": "app-industry",
+    "title": { "zh": "食品工业", "en": "Food manufacturing" },
+    "eyebrow": { "zh": "APPLICATION · INDUSTRY", "en": "APPLICATION · INDUSTRY" },
+    "summary": {
+      "zh": "批次稳定、设备适配与量产支持：工业客户更关注一致性、供货能力与合规文件。",
+      "en": "Batch consistency, equipment fit and scale-up: industrial customers prioritise consistency, supply capability and compliance documentation."
+    },
+    "image": { "src": "/company/image-456.webp", "alt": { "zh": "巧克力工业化生产线", "en": "Industrial chocolate production line" }, "width": 1920, "height": 1080 },
+    "finishedProducts": {
+      "zh": ["涂层与内馅（雪糕、饼干、糖果）", "耐烤夹入（工业烘焙）", "夹心与喷涂", "定制化配方"],
+      "en": ["Coatings and fillings (ice cream, biscuits, confectionery)", "Bake-stable inclusions (industrial bakery)", "Fillings and spray coating", "Customised formulas"]
+    },
+    "processNotes": {
+      "zh": [
+        "工业产线对批次一致性与流变稳定性要求高，需匹配泵送、管径与剪切条件。",
+        "从原料入厂到成品出厂建立全链路品控（109 道管控、2 个 CCP、19 步过滤）。",
+        "量产前通常需要小试—中试—量产的验证路径与第三方检测文件。"
+      ],
+      "en": [
+        "Industrial lines demand batch consistency and rheological stability, matched to pumps, pipe diameter and shear.",
+        "End-to-end quality control from incoming material to finished goods (109 controls, 2 CCPs, 19 filtration steps).",
+        "Scale-up usually needs a lab–pilot–production validation path and third-party test documentation."
+      ]
+    },
+    "commonIssues": {
+      "zh": ["批次间波动——需要标准化品控与稳定供应链支撑。", "产线适配问题——黏度、剪切与设备参数未对齐。"],
+      "en": ["Batch-to-batch variation — needs standardised QC and a stable supply chain.", "Line-fit issues — viscosity, shear and equipment parameters not aligned."]
+    },
+    "trialInputs": {
+      "zh": ["产品与产线信息", "设备参数（泵、管径、温区）", "批量与供货节奏", "合规与检测文件要求", "项目阶段"],
+      "en": ["Product and line information", "Equipment parameters (pumps, pipe diameter, temperature zones)", "Batch size and supply cadence", "Compliance and test documentation needs", "Project stage"]
+    },
+    "recommendedProductIds": ["bake-stable", "classic-dark", "58-dark", "flavour-colour"],
+    "relatedArticleIds": ["couverture-vs-compound", "china-chocolate-standard"],
+    "publishedAt": "2026-01-15",
+    "updatedAt": "2026-01-15"
+  }
+]
