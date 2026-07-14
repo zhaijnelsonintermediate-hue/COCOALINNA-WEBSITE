@@ -63,8 +63,8 @@ docs/*                     本套文档
 
 - 采用 Next.js **多根布局 + 路由组** 方案：`(zh)` 与 `(en)` 各自拥有独立 `<html lang>`。
 - 中文位于根路径以保留现有权重，英文位于 `/en/`。
-- `trailingSlash: true`（见 `next.config.ts`）：所有页面 URL 带尾斜杠且返回 200，canonical/sitemap 不会命中 308 重定向。
-- 文件型 SEO 端点（`/robots.txt` 等含点号路径）在 `worker/index.ts` 中直接返回，避免被尾斜杠策略重定向。
+- URL 规范形式 **无尾斜杠**（框架默认 `trailingSlash: false`，见 `next.config.ts`）：canonical/sitemap/内链均为非尾斜杠且返回 200，带尾斜杠的变体 308 重定向到规范 URL。此策略下静态资源（`/company/*.webp` 等）不会被重定向到 404。
+- 文件型 SEO 端点（`/robots.txt`、`/sitemap.xml`、`/feed.xml`、`/llms.txt`）在 `worker/index.ts` 中于框架路由前直接返回。
 
 ## 与 V1 的差异（保留视觉母版）
 

@@ -84,10 +84,13 @@ export function ProductDetail({ locale, category, slug }: { locale: Locale; cate
                     <td>{loc(a.value, locale)}</td>
                   </tr>
                 ))}
-                <tr>
-                  <th scope="row">{locale === "zh" ? "脂肪体系" : "Fat system"}</th>
-                  <td>{loc(p.fatSystem, locale) === PENDING ? <em className="pending">{ui.pendingNote}</em> : loc(p.fatSystem, locale)}</td>
-                </tr>
+                {/* Show fat system only if it isn't already an attribute row and is confirmed. */}
+                {!visibleAttrs.some((a) => a.key === "fat") && loc(p.fatSystem, locale) !== PENDING && (
+                  <tr>
+                    <th scope="row">{locale === "zh" ? "脂肪体系" : "Fat system"}</th>
+                    <td>{loc(p.fatSystem, locale)}</td>
+                  </tr>
+                )}
               </tbody>
             </table>
           </section>

@@ -28,14 +28,12 @@ export const SITE = {
 export type Locale = (typeof SITE.locales)[number];
 
 /**
- * Absolute URL helper. All internal page paths use a trailing slash so that
- * canonical, hreflang, sitemap and JSON-LD URLs stay byte-for-byte consistent.
+ * Absolute URL helper. Page paths carry no trailing slash (root is "/"), so
+ * canonical, hreflang, sitemap and JSON-LD URLs stay byte-for-byte consistent
+ * with the 200-serving routes.
  */
 export function absoluteUrl(path: string): string {
   if (!path.startsWith("/")) path = `/${path}`;
-  const lastSegment = path.split("/").pop() ?? "";
-  const isFile = lastSegment.includes("."); // e.g. sitemap.xml, robots.txt
-  if (path !== "/" && !path.endsWith("/") && !isFile) path = `${path}/`;
   return `${SITE.origin}${path}`;
 }
 

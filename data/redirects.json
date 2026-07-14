@@ -1,19 +1,19 @@
 {
-  "comment": "301 map from legacy single-page anchors and likely old URLs to the new multi-page structure. Extend this after a full crawl of https://www.cocoa-linna.com/. Machine-readable source for docs/REDIRECTS.csv and the redirect handler.",
+  "comment": "301 map from legacy single-page anchors and likely old URLs to the new multi-page structure. Targets have no trailing slash (canonical form). Extend after a full crawl of https://www.cocoa-linna.com/. Machine-readable source for docs/REDIRECTS.csv and the redirect handler.",
   "redirects": [
     { "from": "/index.html", "to": "/", "status": 301 },
     { "from": "/home", "to": "/", "status": 301 },
-    { "from": "/en/index.html", "to": "/en/", "status": 301 },
-    { "from": "/product", "to": "/products/", "status": 301 },
-    { "from": "/products.html", "to": "/products/", "status": 301 },
-    { "from": "/solution", "to": "/solutions/", "status": 301 },
-    { "from": "/solutions.html", "to": "/solutions/", "status": 301 },
-    { "from": "/news", "to": "/knowledge/", "status": 301 },
-    { "from": "/blog", "to": "/knowledge/", "status": 301 },
-    { "from": "/about.html", "to": "/about/", "status": 301 },
-    { "from": "/contact.html", "to": "/contact/", "status": 301 },
-    { "from": "/pure-chocolate", "to": "/products/couverture/", "status": 301 },
-    { "from": "/compound-chocolate", "to": "/products/compound-chocolate/", "status": 301 },
-    { "from": "/chocolate-sauce", "to": "/products/chocolate-sauce/", "status": 301 }
+    { "from": "/en/index.html", "to": "/en", "status": 301 },
+    { "from": "/product", "to": "/products", "status": 301 },
+    { "from": "/products.html", "to": "/products", "status": 301 },
+    { "from": "/solution", "to": "/solutions", "status": 301 },
+    { "from": "/solutions.html", "to": "/solutions", "status": 301 },
+    { "from": "/news", "to": "/knowledge", "status": 301 },
+    { "from": "/blog", "to": "/knowledge", "status": 301 },
+    { "from": "/about.html", "to": "/about", "status": 301 },
+    { "from": "/contact.html", "to": "/contact", "status": 301 },
+    { "from": "/pure-chocolate", "to": "/products/couverture", "status": 301 },
+    { "from": "/compound-chocolate", "to": "/products/compound-chocolate", "status": 301 },
+    { "from": "/chocolate-sauce", "to": "/products/chocolate-sauce", "status": 301 }
   ]
 }

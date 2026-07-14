@@ -4,8 +4,8 @@
  *
  * URL policy (see docs/ROUTE-MAP.md):
  *  - Chinese (default locale) is served at the root: `/products/...`
- *  - English is served under `/en/`: `/en/products/...`
- *  - Every page path ends with a trailing slash.
+ *  - English is served under `/en`: `/en/products/...`
+ *  - No trailing slash (root is "/"); trailing variants 308 → canonical.
  *  - Category / article slugs are stable lowercase ASCII with hyphens.
  */
 import type { Locale } from "./site";
@@ -34,31 +34,31 @@ function basePath(key: RouteKey, p: RouteParams = {}): string {
     case "home":
       return "/";
     case "products":
-      return "/products/";
+      return "/products";
     case "productCategory":
-      return `/products/${p.category}/`;
+      return `/products/${p.category}`;
     case "productDetail":
-      return `/products/${p.category}/${p.slug}/`;
+      return `/products/${p.category}/${p.slug}`;
     case "solutions":
-      return "/solutions/";
+      return "/solutions";
     case "solutionDetail":
-      return `/solutions/${p.slug}/`;
+      return `/solutions/${p.slug}`;
     case "knowledge":
-      return "/knowledge/";
+      return "/knowledge";
     case "knowledgeCategory":
-      return `/knowledge/${p.category}/`;
+      return `/knowledge/${p.category}`;
     case "article":
-      return `/knowledge/${p.category}/${p.slug}/`;
+      return `/knowledge/${p.category}/${p.slug}`;
     default:
-      return `/${key}/`;
+      return `/${key}`;
   }
 }
 
-/** Locale-aware path (relative, always trailing-slashed). */
+/** Locale-aware path (relative, no trailing slash; root is "/"). */
 export function pathFor(locale: Locale, key: RouteKey, p: RouteParams = {}): string {
   const base = basePath(key, p);
   if (locale === SITE.defaultLocale) return base;
-  return base === "/" ? "/en/" : `/en${base}`;
+  return base === "/" ? "/en" : `/en${base}`;
 }
 
 /** Absolute canonical URL for a page. */

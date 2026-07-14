@@ -1,25 +1,25 @@
 # 路由图 / Route map
 
-URL 规则：中文（默认语言）在根路径；英文在 `/en/`；所有页面路径带尾斜杠并返回 200；分类/文章 slug 为稳定小写 ASCII + 连字符。每组中英文页面拥有独立自引用 canonical、双向 `hreflang="zh-CN"/"en"` 与 `x-default`（指向中文）。
+URL 规则：中文（默认语言）在根路径；英文在 `/en`；页面路径 **无尾斜杠**（根为 `/`），带尾斜杠的变体 308 重定向到规范 URL；静态资源（`/company/*` 等）因此不会被重定向。分类/文章 slug 为稳定小写 ASCII + 连字符。每组中英文页面拥有独立自引用 canonical、双向 `hreflang="zh-CN"/"en"` 与 `x-default`（指向中文）。下表 URL 省略尾斜杠。
 
 ## 页面路由
 
 | 用途 | 中文 (zh-CN) | 英文 (en) | 渲染 | 数据来源 |
 |---|---|---|---|---|
-| 首页 | `/` | `/en/` | SSR | company/products/applications/articles |
-| 产品中心 | `/products/` | `/en/products/` | SSR | taxonomy + products |
-| 产品分类 | `/products/[category]/` | `/en/products/[category]/` | SSG（4） | taxonomy + products |
-| 产品详情 | `/products/[category]/[slug]/` | `/en/products/[category]/[slug]/` | SSG（12） | products |
-| 应用方案 | `/solutions/` | `/en/solutions/` | SSR | applications |
-| 应用详情 | `/solutions/[slug]/` | `/en/solutions/[slug]/` | SSG（4） | applications |
-| 知识中心 | `/knowledge/` | `/en/knowledge/` | SSR | taxonomy + articles |
-| 知识分类 | `/knowledge/[category]/` | `/en/knowledge/[category]/` | SSG（4） | taxonomy + articles |
-| 技术文章 | `/knowledge/[category]/[slug]/` | `/en/knowledge/[category]/[slug]/` | SSG（4） | articles |
-| 关于我们 | `/about/` | `/en/about/` | SSR | company |
-| 研发与制造 | `/rd-manufacturing/` | `/en/rd-manufacturing/` | SSR | company/evidence |
-| 质量与认证 | `/quality-certifications/` | `/en/quality-certifications/` | SSR | certifications/evidence |
-| 资料下载 | `/resources/` | `/en/resources/` | SSR | （待公司提供下载文件） |
-| 联系 / RFQ | `/contact/` | `/en/contact/` | SSR | company/products |
+| 首页 | `/` | `/en` | SSR | company/products/applications/articles |
+| 产品中心 | `/products` | `/en/products` | SSR | taxonomy + products |
+| 产品分类 | `/products/[category]` | `/en/products/[category]` | SSG（4） | taxonomy + products |
+| 产品详情 | `/products/[category]/[slug]` | `/en/products/[category]/[slug]` | SSG（12） | products |
+| 应用方案 | `/solutions` | `/en/solutions` | SSR | applications |
+| 应用详情 | `/solutions/[slug]` | `/en/solutions/[slug]` | SSG（4） | applications |
+| 知识中心 | `/knowledge` | `/en/knowledge` | SSR | taxonomy + articles |
+| 知识分类 | `/knowledge/[category]` | `/en/knowledge/[category]` | SSG（4） | taxonomy + articles |
+| 技术文章 | `/knowledge/[category]/[slug]` | `/en/knowledge/[category]/[slug]` | SSG（4） | articles |
+| 关于我们 | `/about` | `/en/about` | SSR | company |
+| 研发与制造 | `/rd-manufacturing` | `/en/rd-manufacturing` | SSR | company/evidence |
+| 质量与认证 | `/quality-certifications` | `/en/quality-certifications` | SSR | certifications/evidence |
+| 资料下载 | `/resources` | `/en/resources` | SSR | （待公司提供下载文件） |
+| 联系 / RFQ | `/contact` | `/en/contact` | SSR | company/products |
 
 共 **37 个逻辑页面 × 2 语言 = 74 个可索引 URL**（与 sitemap 一致）。
 
